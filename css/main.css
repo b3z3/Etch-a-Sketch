@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.canvas-container{
+    display: grid;
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
+    width: 380px;
+    height: 380px;
+}
+
+.cell{
+    border: 1px solid black;
+}
